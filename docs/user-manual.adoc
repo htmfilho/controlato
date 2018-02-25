@@ -1,0 +1,62 @@
+= Controlato - User Manual
+Hildeberto Mendonça <me@hildeberto.com>
+v0.1.0, 2018-02-25
+:doctype: book
+:encoding: utf-8
+:toc: left
+:toclevels: 4
+:numbered:
+
+:sectnums!:
+
+== Introduction
+
+:sectnums:
+
+== Homepage
+
+image::images/homepage-personal-view.png[Homepage Personal View]
+
+image::images/homepage-general-view.png[Homepage General View]
+
+== Processes
+
+image::images/processes.png[Processes]
+
+=== Process Dashboard
+
+image::images/process.png[Process]
+
+=== Creating and Editing a Process
+
+image::images/process-form.png[Process Form]
+
+== Indicators
+
+=== Indicators With Upcoming Events
+
+image::images/indicators-upcoming.png[Upcoming Indicators]
+
+=== Indicators With Recent Events Registered
+
+image::images/indicators-updated.png[Updated Indicators]
+
+=== Indicators Filtered By Process
+
+image::images/indicators-by-process.png[Process Indicators]
+
+=== Free Search For Indicators
+
+image::images/indicators-search.png[Search Indicators]
+
+=== Visualizing an Indicator
+
+image::images/indicator.png[Indicator]
+
+=== Creating and Editing an Indicator
+
+image::images/indicator-form.png[Indicator Form]
+
+== Events
+
+image::images/event-form.png[Event Form]
