@@ -1,6 +1,6 @@
 # Controlato
 
-![Screenshot](entity-relationship-model.png)
+![Entity Relationship Diagram](entity-relationship-diagram.png)
 
 To start your Phoenix server:
 
