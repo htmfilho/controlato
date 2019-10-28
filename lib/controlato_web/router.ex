@@ -16,7 +16,9 @@ defmodule ControlatoWeb.Router do
   scope "/", ControlatoWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    get "/", HomeController, :index
+    get "/processes", ProcessController, :index
+
   end
 
   # Other scopes may use custom stacks.

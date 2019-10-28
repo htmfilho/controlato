@@ -1,4 +1,4 @@
-defmodule ControlatoWeb.PageController do
+defmodule ControlatoWeb.HomeController do
   use ControlatoWeb, :controller
 
   def index(conn, _params) do

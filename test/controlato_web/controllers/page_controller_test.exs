@@ -1,4 +1,4 @@
-defmodule ControlatoWeb.PageControllerTest do
+defmodule ControlatoWeb.HomeControllerTest do
   use ControlatoWeb.ConnCase
 
   test "GET /", %{conn: conn} do
