@@ -2,9 +2,9 @@ use Mix.Config
 
 # Configure your database
 config :controlato, Controlato.Repo,
-  username: "postgres",
-  password: "postgres",
-  database: "controlato_dev",
+  username: "controlato",
+  password: "controlato",
+  database: "controlato",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
