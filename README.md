@@ -44,6 +44,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 ## Learn more
 
   * Official website: http://www.phoenixframework.org/
+  * Ecto: https://hexdocs.pm/ecto/Ecto.html
   * Guides: https://hexdocs.pm/phoenix/overview.html
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
