@@ -1,6 +1,6 @@
 # Controlato
 
-![Entity Relationship Diagram](entity-relationship-diagram.png)
+![Entity Relationship Diagram](docs/images/entity-relationship-diagram.png)
 
 To install PostgreSQL:
 
