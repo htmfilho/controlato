@@ -1,1 +1,1 @@
-from monitoring.models import context
+from monitoring.models import indicator_context
