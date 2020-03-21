@@ -2,6 +2,10 @@
 
 ![Entity Relationship Diagram](docs/images/entity-relationship-diagram.png)
 
+    $ sudo apt-get install python3-venv
+    $ python3 -m venv venv
+    $ source venv/bin/active
+
 To install PostgreSQL:
 
     $ sudo apt-get install postgresql
