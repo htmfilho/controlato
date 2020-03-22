@@ -1,4 +1,5 @@
 from monitoring.models import indicator
+from monitoring.models import indicator_composed
 from monitoring.models import indicator_composition
 from monitoring.models import indicator_context
 from monitoring.models import scale
