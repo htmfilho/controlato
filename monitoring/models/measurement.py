@@ -9,7 +9,7 @@ class MeasurementAdmin(admin.ModelAdmin):
 
 class Measurement(models.Model):
     indicator_context = models.ForeignKey('IndicatorContext', on_delete=models.CASCADE)
-    value = models.BigIntegerField()
+    value = models.DecimalField(decimal_places=3, max_digits=12)
     used_formula = models.CharField(max_length=255, null=True, blank=True)
     filled_formula = models.CharField(max_length=255, null=True, blank=True)
     measurement_date = models.DateTimeField()
