@@ -9,8 +9,8 @@ $(document).ready(function () {
         $.get("/contexts/"+ contextId +"/chart", function (data) {
             console.log(data.labels);
 
-            let chart = new Chart(ctx, {
-                type: 'line',
+            new Chart(ctx, {
+                type: data.chart,
                 data: {
                     labels: data.labels,
                     datasets: [{

@@ -17,6 +17,7 @@ def context_chart(request, context_id):
 
     chart = {'scale': ind_context.indicator.scale.name,
              'unit': ind_context.indicator.scale.unit.acronym,
+             'chart': ind_context.chart,
              'labels': labels,
              'dataset': values}
     return JsonResponse(chart)
