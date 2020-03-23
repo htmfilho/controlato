@@ -12,7 +12,7 @@
   <body>
     <nav class="navbar fixed-top navbar-dark bg-primary">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{% url 'index' %}">
             <img src="{% static 'images/logo.svg' %}" width="30" height="30" class="d-inline-block align-top" alt="">
             Controlato
         </a>
@@ -20,6 +20,14 @@
     </nav>
 
     <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page"><a href="{% url 'index' %}"><img src="{% static 'images/house-fill.svg' %}"></a></li>
+              {% block breadcrumb %}
+              {% endblock %}
+          </ol>
+        </nav>
+
         {% block content %}
         {% endblock %}
     </div>
