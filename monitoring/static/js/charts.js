@@ -25,7 +25,7 @@ $(document).ready(function () {
                             type: 'time',
                             distribution: 'series',
                             time: {
-                                unit: 'minute',
+                                unit: data.interval,
                                 displayFormats: {
                                     minute: "h:mm a"
                                 }
