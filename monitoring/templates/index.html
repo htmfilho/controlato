@@ -8,8 +8,8 @@
         <div class="card">
           <canvas id="indicator-chart-{{ indicator.id }}" height="250"></canvas>
           <div class="card-body">
-            <h5 class="card-title">{{ indicator.name }}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">{{ indicator.indicator }}</h6>
+              <h5 class="card-title"><a href="{% url 'context' indicator.id %}">{{ indicator.name }}</a></h5>
+              <h6 class="card-subtitle mb-2 text-muted">{{ indicator.indicator }}</h6>
           </div>
         </div>
       {% empty %}

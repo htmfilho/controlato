@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% load static %}
+{% block content %}
+    <h1>Context: {{ ind_context.name }}</h1>
+    <hr>
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'js/charts.js' %}"></script>
+{% endblock %}

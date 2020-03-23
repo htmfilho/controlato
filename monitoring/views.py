@@ -8,6 +8,11 @@ def index(request):
     return render(request, "index.html", locals())
 
 
+def context(request, context_id):
+    ind_context = get_object_or_404(indicator_context.IndicatorContext, pk=context_id)
+    return render(request, "context.html", locals())
+
+
 def context_chart(request, context_id):
     ind_context = get_object_or_404( indicator_context.IndicatorContext, pk=context_id)
     measurements = measurement.Measurement.objects.filter(indicator_context=ind_context)
