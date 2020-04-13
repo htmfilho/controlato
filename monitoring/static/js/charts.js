@@ -7,8 +7,6 @@ $(document).ready(function () {
         let contextId = canvasId.substring(canvasId.lastIndexOf("-") + 1);
 
         $.get("/contexts/"+ contextId +"/chart", function (data) {
-            console.log(data.labels);
-
             new Chart(ctx, {
                 type: data.chart,
                 data: {
